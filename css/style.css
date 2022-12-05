@@ -1,30 +1,34 @@
-#hero p{
-	background-color: #8D2B23;
-	font-size: 20px;
-	color: #FFFFFF;
-	font-weight: 500;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+body{
+	font-family: 'Mulish', sans-serif;
 }
 
-h1{
+#hero h2{
 	background-color: #8D2B23;
-	font-size: 16px;
+	font-size: 15px;
 	color: #FFFFFF;
 	font-weight: 500;
-	padding: 30px 0px;
-	text-align: center;
-}
-
-h2{
-	padding: 30px 0;
-	font-size: 20px;
-	color:#1A2A57;	
-	font-weight: 700;
-}
-.nav-item{
-	font-weight: 100;
+	margin-bottom: 0;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	text-transform: uppercase;
 }
+h1{
+	background-color: #8D2B23;
+	font-size: 25px;
+	color: #FFFFFF;
+	font-weight: 500;
+	padding: 30px 0px 30px 80px;
+	text-align: left;
+}
 
+.nav-item{
+	font-family: 'Mulish', sans-serif;
+	text-transform: uppercase;
+	font-weight:200;
+	color: #8D2B23;
+}
 #masbuscado {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -33,12 +37,10 @@ h2{
 	font-size: 5px;
 	font-weight: 100;
 }
-
 #masbuscado h5{
 	padding: 10px;
 	font-size: 15px;
 }
-
 #masbuscado h6{
 	text-transform: uppercase;
 	font-size: 15px;
@@ -48,18 +50,10 @@ h2{
 	padding: 10px;
 	margin-bottom: 20px;
 }
-
-#entrevistas h5{
-	font-size: 15px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
 #entrevistas {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#entrevistas h6,
 .titulo{
 	text-transform: uppercase;
 	font-size: 15px;
@@ -69,84 +63,93 @@ h2{
 	padding: 10px;
 	margin-bottom: 20px;
 }
-
 #entrevistas h5{
-	font-size: 15px;
+	padding-top: 20px;
+	font-size: 20px;
 	color: #fff;
 	text-align: left;
 	text-transform: uppercase;
 }
-
+#entrevistas p{
+	padding-top: 20px;
+	font-size: 18px;
+}
 #entrevistas .card{
 	color: #fff;
 	background-color: #8D2B23;
 	border: 0;
 	border-radius: 0;
 }
-
 footer{
 	color: #fff;
 	background-color: #192A56;
-	padding: 10px 8px 8px 8px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 20px;
-	margin-top: 20px;
-	margin-left: inherit;
-	
-}
-
-footer p{
-	color: #fff;;
-	text-align: center;
 	text-transform: uppercase;
 	font-size: 13px;
-}
-
-footer h2{
+	margin-top: 20px;
 	text-align: center;
-	color: #fff;
-	font-size: 30px;
 }
-
 footer img{
-	width: 150px;
-	background-color: #fff;
-	border-radius: 5px;
-	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 220px;
 }
 
-
+footer h2 {
+	color: #fff;
+	text-align:center;
+	font-size: 30px;
+	font-weight: 800;
+	padding-top: 50px;
+}
 .card{
 	border-radius: 0;
 	border-color:  #8D2B23;
 	border-width: thick;
 	margin-top: 30px;
 }
-
 h5{
 	color: #1A2A57;
 }
-
 h6{
 	color: #1A2A57;
+
 }
-
-#noticia2{
-	padding: 30px 0;
-	
-}
-
-
 #tec{
 	padding-top: 200px;
+	color: #192A56;
+}
+#tec p{
+	padding-top: 15px;
+	color: #192A56;
 	font-size: 20px;
-	color:#1A2A57;	
-	font-weight: 700;
+}
+#tec h2{
+	padding-top: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #192A56;
+}
+#tec h5{
+	padding-top: 20px;
+	color: #192A56;
+	font-size: 22px;
 }
 
-#noticia5{
-	padding: 30px 0;
+#noticia h2{
+	padding-top: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #192A56;
+}
+#noticia h5{
+	padding-top: 20px;
+	color: #192A56;
+	font-size: 22px;
+}
+#noticia p{
+	padding-top: 15px;
+	color: #192A56;
+	font-size: 20px;
 }
 
 #cineytv {
@@ -154,34 +157,145 @@ h6{
 	background-size: cover;
 	background-position: top center;
 }
-
 #cineytv h2{
 	color: #fff;
 	font-size: 30px;
-	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 200px;	
+	font-weight: 800;
 }
-
 #peliculas {
 	margin-top: 40px;
 	padding-top: 50px;
 }
-
 #peliculas h5{
 	text-transform: uppercase;
 	font-size: 15px;
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
-
 #peliculas h3{
 	color: #192A56;
 	border-bottom-color: #8F2826;
 	border-bottom: 3px solid #8F2826;
 	margin-bottom: 30px;
 }
+#contacto p{
+font-size: 20px;
+color: #1A2A57;
+width: auto;
+}
+.submission-form{
+	font-size: 30px;
+	color: #192A56; 
+}
+#novedades {
+	margin-top: 40px;
+	padding-top: 50px;
+}
+
+#novedades h5{
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+#novedades h3{
+	color: #192A56;
+	border-bottom-color: #8F2826;
+	border-bottom: 3px solid #8F2826;
+	margin-bottom: 30px;
+}
+#cienciaytec{
+	background-image: url("../img/cienciaytec.webp");
+	background-size: cover;
+	background-position: top center;
+}
+#cienciaytec h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 200px;	
+}
+a{
+	text-decoration: none;
+	color: #fff; 
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: #8F2826;
+	color: #192A56;
+}
+
+#contact-form{
+	padding: 30px 0;
+}
+
+#contact-form .info-form{
+	background-color: #FFFFFF;
+	padding: 30px 350px 50px;
+	text-align: center;
+	box-shadow: 0px 0px 30px 0px #ddd;
+
+}
+
+#contact-form input, #contact-form textarea{
+	padding: 10px;
+	border-radius: 0px;
+	border-width: 5px;
+	border-color: #8F2826; 
+}
 
 
+#cienciaytec{
+	background-image: url("../img/cienciaytec.webp");
+	background-size: cover;
+	background-position: top center;
+}
+#cienciaytec h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 200px;	
+}
+a{
+	text-decoration: none;
+	color: #fff; 
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: #8F2826;
+	color: #192A56;
+}
+#metaquest{
+	background-image: url("../img/Meta-Quest-Pro-Gadget-Lab-Podcast-Gear.webp");
+	background-size: cover;
+	background-position: top center;
+}
+#metaquest h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 1000;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 200px;	
+}
 
+#metainfo{
+	margin-top: 40px;
+	padding-top: 50px;
+}
+#metainfo h3{
+	color: #192A56;
+	border-bottom-color: #8F2826;
+	border-bottom: 3px solid #8F2826;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 700;
+}
